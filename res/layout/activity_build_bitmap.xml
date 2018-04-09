@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8" >
+
+        <LinearLayout
+            android:id="@+id/ll_viewArea"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="7dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txt_nome"
+            style="@style/SelfieEditTextSingle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="8dp"
+            android:ems="8"
+            android:gravity="center"
+            android:hint="Seu nome"
+            android:imeOptions="actionDone" />
+
+        <Button
+            android:id="@+id/btn_add_nome"
+            style="@style/ButtonCamera"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hapticFeedbackEnabled="true"
+            android:text="Adicionar"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_voltar_camera"
+        style="@style/ButtonCamera"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="7dp"
+        android:text="Voltar"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_continuar"
+        style="@style/ButtonCamera"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="7dp"
+        android:text="Continuar"
+        android:textSize="15sp" />
+
+</RelativeLayout>

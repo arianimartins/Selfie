@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="cor_principal_verde">#72c16c</color>
+    <color name="shadow">#7bb2ba</color>
+    
+    <!-- CORES BOTÕES -->
+    <color name="cor_btn_a">#C4BEBE</color>
+    <color name="cor_btn_b">#F0F0F0</color>
+    
+</resources>

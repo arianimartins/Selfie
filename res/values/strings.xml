@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SelfieCup</string>
+    <string name="action_about">Sobre</string>
+
+    <!-- Botões HOME -->
+    <string name="txt_camera">Câmera</string>
+    <string name="txt_galeria">Galeria</string>
+    
+    <!-- Botões DIALOG -->
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancelar">Cancelar</string>
+
+    <!-- Botões CAMERA -->
+    <string name="txt_baterfoto">Bater Foto</string>
+    <string name="txt_virarcamera">Virar Camera</string>
+
+    <!-- Dialog ERRO -->
+    <string name="txt_crop_erro_titulo">Ops!</string>
+    <string name="txt_crop_erro_msg">Sua imagem deve ser maior ou igual ao tamanho da figurinha para ser recortada. Certifique-se de que a imagem está dentro da área de recorte.</string>
+    
+    <!-- Dialog SHARE -->
+    <string name="txt_share_titulo">Compartilhando</string>
+    <string name="txt_share_msg">Aguarde...</string>
+
+    <!-- Dialog SALVAR -->
+    <string name="txt_imagem_salva">Sucesso!</string>
+    <string name="txt_path_img">Sua foto foi salva em: \'DCIM/Copa 2014\'</string>
+
+	<!-- Tela SOBRE -->    
+    <string name="texto_sobre">Em época de Copa, já que não se fala em outra coisa, que tal se divertir e fazer parte da seleção?! Ou também escalar seus amigos para participar da brincadeira.\n\nFaça montagens super divertidas com esse app e compartilhe com a galera.\n\nNele você consegue fotografar seu rosto ou de seus amigos, aplicando em uma montagem incrivel e transformar quem você quiser em um jogador da seleção.\n\nAinda dá para postar direto no Facebook e cair na risada.\n\nEstá esperando o que para usar?!\n\nCompartilhe com os amigos porque a diversão é garantida!!</string>
+    
+    <!-- Strings API Facebook -->
+    <string name="camera_alert">Apenas uma câmera no dispositivo</string>
+    <string name="main_camera_toast_txt">Receipt must be captured in full.\nImage must be clear and sharp.\nOne receipt at a time.</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="exception">Exception: %1$s</string>
+
+    <!-- IDs -->
+    <string name="app_id">697618326966553</string>
+    <string name="ad_unit_id">ca-app-pub-3881094929071891/3973476768</string>
+
+</resources>

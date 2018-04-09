@@ -1,0 +1,48 @@
+<?xml version= "1.0" encoding ="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item android:state_pressed= "true">
+        <shape android:shape="rectangle" >
+            <corners
+                android:radius="15dip" />
+            <gradient
+                android:angle="270"
+                android:type="linear"
+                android:startColor="@color/cor_btn_a"
+                android:endColor="@color/cor_btn_b" />
+            <size
+                android:width="150dp"
+                android:height="60dp"/>
+        </shape>     
+    </item >
+   
+    <item android:state_focused= "true"> <!-- se o botão estiver com foco -->
+        <shape android:shape="rectangle" >
+            <corners
+                android:radius="15dip" />
+            <gradient
+                android:angle="270"
+                android:type="linear"
+                android:startColor="@color/cor_btn_b"
+                android:endColor="@color/cor_btn_a" />
+            <size
+                android:width="150dp"
+                android:height="60dp"/>
+        </shape>     
+    </item >
+   
+    <item >
+        <shape android:shape="rectangle">
+            <corners
+                android:radius="15dip" />
+            <gradient
+                android:angle="270"
+                android:type="linear"
+                android:startColor="@color/cor_btn_b"
+                android:endColor="@color/cor_btn_a" />
+            <size
+                android:width="150dp"
+                android:height="60dp"/>
+         </shape>
+     </item >
+</selector>
